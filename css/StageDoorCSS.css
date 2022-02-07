@@ -1,0 +1,281 @@
+@charset "UTF-8";
+#header {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #DDDDDD;
+    border-radius: 88px 88px 20px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #C53838;
+    text-shadow: 0px 0px #000000;
+    background-size: cover;
+    margin-top: 1%;
+    background-color: rgba(255,223,172,0.71);
+}
+body {
+    background-repeat: repeat;
+    background-size: contain;
+    background-image: url(../imgs/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+}
+#header #logo {
+    border-top-left-radius: 30%;
+    border-width: thick;
+    border-top-right-radius: 30%;
+    margin-top: 1px;
+    background-size: contain;
+    background-repeat: repeat;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.53);
+    width: auto;
+}
+#navbar {
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.35);
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-bottom: 1%;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Apple Chancery", "Apple Symbols", "Apple Color Emoji", "Baskerville Bold";
+    width: 31.3333%;
+    padding-top: 1%;
+}
+
+#navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    font-family: "Apple Chancery", "Apple Symbols", "Apple Color Emoji", "Baskerville Bold";
+}
+
+#navbar a.active {
+    background-color: rgba(255,255,255,0.14);
+    color: white;
+}
+#header #logo #stars {
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgba(255,184,72,1.00);
+    font-size: 19px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    text-shadow: 3px 2px 14px rgba(0,0,0,1.00);
+}
+#content {
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: solid;
+    border-color: rgba(254,200,113,0.53);
+    background-color: rgba(245,157,123,0.61);
+    margin-top: 5px;
+    float: none;
+    text-align: left;
+	overflow: hidden
+}
+#content #IndexHeading {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 1px;
+    color: rgba(77,77,77,1.00);
+    padding-top: 11%;
+    font-style: normal;
+}
+#headerbg #navbar {
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 69.2%;
+}
+
+.sticky + .content {
+    padding-top: 60px;
+    width: 31.33%;
+}
+#headerbg {
+    background-image: url(../imgs/ivan-torres-Pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    padding-top: 5%;
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-right: 15%;
+    border-style: solid;
+    border-color: rgba(254,200,113,0.53);
+}
+#content #orderbutton  {
+    text-align: center;
+    color: rgba(156,8,11,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(145,119,109,0.85);
+    text-decoration: none;
+    border-radius: 10px;
+    float: none;
+}
+#content #LocationButton {
+    text-align: center;
+    color: rgba(156,8,11,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: x-large;
+    border-width: 2px;
+    border-style: solid;
+    margin-left: 33%;
+    margin-right: 33%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(145,119,109,0.85);
+    border-radius: 10px;
+    text-decoration: none;
+    -webkit-box-shadow: 2px 2px 4px rgba(1,1,1,1.00);
+    box-shadow: 2px 2px 4px rgba(1,1,1,1.00);
+}
+#content #job {
+    text-align: center;
+}
+#content #Hours {
+    text-align: center;
+    text-decoration: none;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-variant: small-caps;
+    font-size: x-large;
+    font-weight: bold;
+    padding-top: 10%;
+}
+#content #orderbutton a {
+    color: rgba(255,255,255,1.00);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    text-decoration: none;
+}
+#content #LocationButton a {
+    color: rgba(0,0,0,1.00);
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    text-align: center;
+    text-decoration: none;
+}
+#content #Location {
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0,0,0,1.00);
+    background-color: rgba(156,74,75,0.61);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-style: normal;
+    font-size: 150%;
+}
+#content #MenuList {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#content #MenuList .FoodSection {
+    color: rgba(141,58,58,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    clear: both;
+}
+#content .LocationTitle {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-variant: normal;
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(141,58,58,1.00);
+    text-decoration: none;
+    text-shadow: -2px 3px 1px rgba(0,0,0,1.00);
+}
+#content .LocationLeft {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 4%;
+}
+#content .LocationRight img {
+    -webkit-box-shadow: 9px 9px 9px rgba(55,55,55,1.00);
+    box-shadow: 9px 9px 9px rgba(55,55,55,1.00);
+    border: 2px solid rgba(0,0,0,1.00);
+    border-radius: 28px;
+    margin-bottom: 15%;
+}
+#content .LocationRight {
+    float: right;
+    width: 45%;
+    text-align: justify;
+}
+#content #MenuList .FoodDesc {
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 0px;
+    margin-top: -31px;
+    color: rgba(41,38,38,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: bold;
+    clear: both;
+}
+#content #MenuList .FoodItemL {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#content #MenuList .FoodCenter {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: large;
+}
+#content #MenuList .FoodItemR {
+    float: right;
+    width: 45%;
+    text-align: justify;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#content .LocationCenter {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-variant: small-caps;
+    font-weight: 900;
+    font-size: xx-large;
+}

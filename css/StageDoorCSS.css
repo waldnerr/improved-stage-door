@@ -279,3 +279,27 @@ body {
     font-weight: 900;
     font-size: xx-large;
 }
+
+@media screen and (max-width:480px){#header #logo h1  {
+    font-size: small;
+    padding-top: 39px;
+}
+#headerbg #navbar {
+    font-weight: bold;
+    font-size: large;
+}
+#header #logo h3 {
+    font-size: small;
+}
+#content .IndexHeading {
+    font-size: small;
+    text-shadow: 0px 0px rgba(0,0,0,1.00);
+}
+#content #orderbutton a {
+    font-size: small;
+    text-align: center;
+}
+#content #job {
+    font-size: small;
+}
+}

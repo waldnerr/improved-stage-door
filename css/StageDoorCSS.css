@@ -82,7 +82,7 @@ body {
     text-align: left;
 	overflow: hidden
 }
-#content #IndexHeading {
+#content .IndexHeading {
     font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
     font-weight: 400;
     text-align: center;

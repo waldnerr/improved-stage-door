@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+    html, body{
+    margin: 0px;
+    background-color: rgba(254,236,237,1.00);
+		scroll-behavior: smooth;
+    }
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#header {
+    text-align: center;
+    text-decoration: none;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 0px;
+    background-color: rgba(247,59,63,1.00);
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0px 0px;
+    padding-top: 1px;
+}
+#belowheader {
+    background-color: rgba(0,0,0,1.00);
+    color: rgba(255,255,255,1.00);
+    font-size: small;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+}
+#Stagedoordeli {
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    letter-spacing: -3pt;
+    text-align: left;
+    margin-left: 25px;
+}
+#desc {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-weight: bolder;
+    margin-left: 10px;
+    margin-top: -18px;
+}
+#logo {
+    float: left;
+    padding-left: 75px;
+	}
+#navbar {
+    overflow: hidden;
+    background-color: #F8C1C2;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: small;
+}
+#navbar a {
+    float: right;
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#locodesc {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: large;
+}
+	.sticky + .content {
+  padding-top: 60px;
+}
+#navbar a:hover {
+    background-color: #FFB6B7;
+    color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+.headingveggies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 236px;
+    padding-top: 100px;
+}
+#welcomedesc {
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: large;
+}
+#Welcomemessage {
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    letter-spacing: -4px;
+    font-size: 60px;
+}
+#storefront {
+    width: 700px;
+    height: auto;
+    display: inline;
+    border: thick solid rgba(0,0,0,1.00);
+    -webkit-box-shadow: 4px 5px rgba(247,59,63,1.00);
+    box-shadow: 4px 5px rgba(247,59,63,1.00);
+    margin-left: 100px;
+    margin-top: 50px;
+    float: left;
+}
+#hometitle {
+}
+#home {
+    float: left;
+    margin-left: 60%;
+    clear: both;
+    padding-left: 98px;
+    padding-right: 99px;
+    background-color: rgba(219,219,219,1.00);
+    border: thick solid rgba(0,0,0,1.00);
+    -webkit-box-shadow: -4px -4px rgba(247,59,63,1.00);
+    box-shadow: -4px -4px rgba(247,59,63,1.00);
+    margin-top: 15px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-align: center;
+    color: rgba(247,59,63,1.00);
+    text-shadow: 1px 1px rgba(0,0,0,1.00);
+    font-size: x-large;
+    margin-right: 50px;
+    margin-bottom: 35px;
+}
+.menubox {
+    border: thick solid rgba(0,0,0,1.00);
+    text-align: justify;
+    background-color: rgba(241,146,149,0.38);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-weight: bolder;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 25%;
+    margin-top: 30px;
+    float: left;
+}
+.menuboxC {
+    border: thick solid rgba(0,0,0,1.00);
+    text-align: center;
+    background-color: rgba(241,146,149,0.38);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    font-weight: bolder;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 30px;
+    float: left;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuitemsection {
+    clear: both;
+    padding-top: 20px;
+}
+.titlemenu {
+    background-color: rgba(185,185,185,1.00);
+    border: thick solid rgba(0,0,0,1.00);
+    -webkit-box-shadow: 4px 4px rgba(247,59,63,1.00);
+    box-shadow: 4px 4px rgba(247,59,63,1.00);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+    clear: both;
+}
+#menutitle {
+    text-align: center;
+;     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+.menunote {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: -15px;
+}
+.descmenu {
+    text-align: center;
+}
+#Menu {
+    text-align: center;
+    border: thick solid rgba(0,0,0,1.00);
+    background-color: rgba(247,59,63,1.00);
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    margin-left: 15px;
+    margin-right: 15px;
+    clear: both;
+    font-family: Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+}
+.titlesecmenu {
+    border: thick solid rgba(0,0,0,1.00);
+    background-color: rgba(196,196,196,1.00);
+    -webkit-box-shadow: -5px 4px rgba(247,59,63,1.00);
+    box-shadow: -5px 4px rgba(247,59,63,1.00);
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    letter-spacing: -3px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#contentcont {
+    display: block;
+    clear: both;
+}
+.divider {
+    text-align: center;
+}
+#locoWelcome {
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    letter-spacing: -4px;
+    font-size: 60px;
+}
+.mapouter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: thick solid rgba(0,0,0,1.00);
+    -webkit-box-shadow: 4px 4px rgba(247,59,63,1.00);
+    box-shadow: 4px 4px rgba(247,59,63,1.00);
+}

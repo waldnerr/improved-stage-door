@@ -4,6 +4,7 @@
     margin: 0px;
     background-color: rgba(254,236,237,1.00);
 		scroll-behavior: smooth;
+		text-decoration: none
     }
 body {
     height: 100%;
@@ -74,12 +75,12 @@ body {
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     text-align: center;
     font-weight: bold;
-    margin-left: 200px;
-    margin-right: 200px;
     font-size: large;
+    margin-left: 5px;
 }
 	.sticky + .content {
-  padding-top: 60px;
+    padding-top: 60px;
+    margin-right: 5px;
 }
 #navbar a:hover {
     background-color: #FFB6B7;
@@ -234,11 +235,124 @@ body {
     font-size: 60px;
 }
 .mapouter {
-    display: block;
+    display: list-item;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
     border: thick solid rgba(0,0,0,1.00);
     -webkit-box-shadow: 4px 4px rgba(247,59,63,1.00);
     box-shadow: 4px 4px rgba(247,59,63,1.00);
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+@media screen and (max-width:450px){
+#content #welcomedesc {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#content #contentcont #home {
+    width: 40%;
+    padding-bottom: 8px;
+    display: block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#storefront {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 25%;
+}
+#header #desc {
+    text-align: left;
+    font-size: x-small;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header {
+    width: 100%;
+    letter-spacing: normal;
+    font-size: medium;
+}
+#belowheader {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+#Menu {
+    width: 75%;
+    font-size: small;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menuitemsection {
+    width: 100%;
+    font-size: small;
+}
+.menuitemsection .titlesecmenu {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menubox {
+    width: 75%;
+    margin-top: 1px;
+    margin-right: 1px;
+    margin-bottom: 1px;
+    margin-left: 1px;
+}
+#Location #locoWelcome {
+    width: 35%;
+    font-size: small;
+    letter-spacing: normal;
+    text-align: center;
+    clear: both;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+#Location #locodesc {
+    font-size: small;
+    clear: both;
+    display: inline-block;
+    width: 35%;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+#Location .headingveggies {
+    display: block;
+    height: 35px;
+    clear: both;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+#content {
+    width: 100%;
+}
+#content #Welcomemessage {
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: normal;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+#navbar {
+    width: 100%;
+}
+.mapouter {
+    width: 15%;
+    max-width: 400px;
+    max-height: 400px;
+    display: none;
+}
 }
